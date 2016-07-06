@@ -1,0 +1,27 @@
+{
+  "name": "z-template",
+  "version": "1.0.0",
+  "description": "Zizo Template v1.0",
+  "main": "index.js",
+  "scripts": {
+    "run dev": "webpack-dev-server --content-base app --hot --inline"
+  },
+  "keywords": [
+    "zizo"
+  ],
+  "author": "Dean McGarrigle",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "json-loader": "^0.5.4",
+    "raw-loader": "^0.5.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "angular": "^1.5.7",
+    "angular-ui-router": "^0.3.1"
+  }
+}

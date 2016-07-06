@@ -1,0 +1,10 @@
+{
+  "1": {
+    "display": "Home",
+    "name": "Home",
+    "url": "/",
+    "controllerAs": "vm"
+  }
+}
+
+
