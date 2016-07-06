@@ -1,3 +1,44 @@
 <div>
-    <md-button class="md-raised" ng-click="showAlert()">Hello There!</md-button>
+    <!--<md-fab-speed-dial md-open="isOpen" md-direction="right" ng-class="md-fling" class="ng-isolate-scope _md-animations-ready md-fling md-right">-->
+        <!--<md-fab-trigger>-->
+            <!--<md-button aria-label="menu" class="md-fab md-primary">-->
+
+            <!--</md-button>-->
+        <!--</md-fab-trigger>-->
+        <!--<md-fab-actions>-->
+            <!--<md-button aria-label="Twitter" class="md-fab md-raised md-mini">-->
+            <!--</md-button>-->
+            <!--<md-button aria-label="Facebook" class="md-fab md-raised md-mini">-->
+            <!--</md-button>-->
+            <!--<md-button aria-label="Google Hangout" class="md-fab md-raised md-mini">-->
+            <!--</md-button>-->
+        <!--</md-fab-actions>-->
+    <!--</md-fab-speed-dial>-->
+
+        <md-content class="md-padding" layout="column">
+
+            <div class="lock-size" layout="row">
+                <md-fab-speed-dial md-open="vm.isOpen" md-direction="right" ng-class="vm.selectedMode">
+                    <md-fab-trigger>
+                        <md-button aria-label="menu" class="md-fab md-primary">
+                        </md-button>
+                    </md-fab-trigger>
+
+                    <md-fab-actions>
+                        <md-button aria-label="Twitter" class="md-fab md-raised md-mini">
+                        </md-button>
+                        <md-button aria-label="Facebook" class="md-fab md-raised md-mini">
+                        </md-button>
+                        <md-button aria-label="Google Hangout" class="md-fab md-raised md-mini">
+                        </md-button>
+                    </md-fab-actions>
+                </md-fab-speed-dial>
+            </div>
+
+        </md-content>
+
+    <!--
+    Copyright 2016 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that can be in foundin the LICENSE file at http://material.angularjs.org/license.
+    -->
 </div>
