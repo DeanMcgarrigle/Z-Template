@@ -14,6 +14,9 @@ module.exports = {
         loaders: [
             { test: /\.html/, loader: 'raw' },
             { test: /\.js$/, loader: 'babel', query: {cacheDirectory: true, presets: ['es2015']},exclude: /node_modules/ },
+            {test: /\.css$/, loader: 'style-loader!css-loader'},
+            {test: /\.scss$/, loader: "style-loader!css-loader!sass-loader?"},
+            {test: /\.less$/, loader: 'style-loader!css-loader!less-loader'},
             { test: /\.json/, loader: 'json' }
         ]
     },

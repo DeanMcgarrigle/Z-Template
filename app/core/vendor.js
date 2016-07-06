@@ -1,4 +1,7 @@
 module.exports = function () {
-    console.log('loading scripts..');
+
     require('angular');
+
+    /*styles*/
+    require('../css/styles.scss');
 };
